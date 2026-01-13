@@ -125,7 +125,7 @@ jobs:
       - name: Download MFW
         uses: robinraju/release-downloader@v1
         with:
-          repository: overflow65537/MFW-PyQt6
+          repository: FDrag0n/MFW-PyQt6
           fileName: "MFW-PyQt6-${{ matrix.file-suffix }}-${{ matrix.arch }}*"
           latest: true
           out-file-path: "maapicli"
